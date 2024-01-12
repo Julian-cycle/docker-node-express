@@ -20,10 +20,10 @@ docker build -t docker-node-app .
 Start a container based on your new image:
 
 ```
-docker run -d -p 8080:8080 docker-node-app
+docker run -d -p 8000:8000 docker-node-app
 ```
 
-Visit your application in a browser at [http://localhost:8080](http://localhost:8080). You should see your hello world application up and running.
+Visit your application in a browser at [http://localhost:8000](http://localhost:8000). You should see your hello world application up and running.
 
 ## License
 
