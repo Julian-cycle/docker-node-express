@@ -1,6 +1,4 @@
-# Dockerizing a Node.js web app
 
-The goal of this example is to show you how to get a Node.js application into a Docker container.
 
 ## Development
 
@@ -25,6 +23,3 @@ docker run -d -p 8000:8000 docker-node-app
 
 Visit your application in a browser at [http://localhost:8000](http://localhost:8000). You should see your hello world application up and running.
 
-## License
-
-This project is licensed under the terms of the [MIT license](https://github.com/SafdarJamal/docker-node-app/blob/master/LICENSE).
